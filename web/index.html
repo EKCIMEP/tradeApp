@@ -80,7 +80,7 @@
             <td>{{ticker.macd}}</td>
             <td>{{ticker.rci}}</td>
             <td></td>
-            <td></td>
+            <td  class="comments"></td>
             </tr>
             <tr ng-repeat="ticker in tickers" ng-show="ticker.edit">
             <td>
@@ -107,7 +107,7 @@
             <td><input type="text" ng-model="ticker.macd"/></td>
             <td><input type="text" ng-model="ticker.rci"/></td>
             <td></td>
-            <td></td>
+            <td class="comments"></td>
           </tr>
         </tbody>
       </table>
